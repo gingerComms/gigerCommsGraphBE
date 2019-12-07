@@ -5,6 +5,7 @@
 1. Install the emulator as mentioned [here](https://docs.microsoft.com/en-us/azure/cosmos-db/local-emulator#installation)
 2. Install the Python3 dependencies using `pip install -r requirements.txt`
 3. Enable the Gremlin API as mentioned [here](https://github.com/MichalWierzbinski/cosmosdb-emulator-gremlin)
+	`.\CosmosDB.Emulator.exe /EnableGremlinEndpoint`
 4. Create a new Container with the following details:
 	- Database id: `tasks`
 	- Container id: `items`
